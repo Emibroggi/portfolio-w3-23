@@ -7,16 +7,11 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <style>
     html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
-    .double {border-style: double;
-    padding: 60px;
-    margin: 40px;}
-    .proyects{display: flex;padding: 25px; opacity:0.4;}
-    .proyects:hover {
-      opacity: 1;
-    }
-    .form{
-      padding: 49px;
-    }
+    .double {border-style: double; padding: 60px; margin: 40px;}
+    .proyects{display: flex;padding: 25px;}
+    .calcu {opacity:0.4;}
+    .calcu:hover {opacity: 1;}
+    .form{padding: 49px;}
 </style>
 <style>
   body {font-family: Arial, Helvetica, sans-serif;}
@@ -59,9 +54,9 @@
 
 <!-- Navigation (Stays on Top) -->
 <nav class="w3-top w3-bar w3-black">
-<a href="#home" class="w3-bar-item w3-button">Home</a>
-<a href="#about" class="w3-bar-item w3-button">About</a>
-<a href="#contact" class="w3-bar-item w3-button">Contact</a>
+<a href="#home" class="w3-bar-item w3-button"><i class="fas fa-home"></i></a>
+<a href="#about" class="w3-bar-item w3-button">Acerca de </a>
+<a href="#contact" class="w3-bar-item w3-button">Contacto</a>
 <a href="https://github.com/Emibroggi" class="w3-bar-item w3-button w3-right" ><i class="fa-brands fa-github"></i></i></i>GitHub</a>
 <a href="https://facebook.com/emiliano.broggi.7/" class="w3-bar-item w3-button  w3-right"><i class="fa-brands fa-facebook"></i></i></i>Facebook</a>
 
@@ -69,8 +64,9 @@
 </nav>
 <!-- header-->
 <header>
-<img  id="home" src="img/foto3.jpg" alt="fondo" style="width:100%" height="700">
-
+  <div style="text-align: center;">
+<img id="home" src="img/foto3.jpg" alt="fondo" style="width:50%" height="700">
+  </div>
 <div class="w3-container w3-black">
 <h1 class="w3-center">EMILIANO BROGGI </h1>
 <br>
@@ -87,8 +83,8 @@
     </div>
     
     <div class="w3-half w3-padding-large">
-    <h1 class="w3-center">About Me</h1><br>
-    <h5 class="w3-center">Concordia Entre Rios, since 1993</h5>
+    <h1 class="w3-center">Acerca de Mi</h1><br>
+    <h5 class="w3-center">Concordia Entre Rios, desde 1993.</h5>
     <p class="w3-large">
         Soy una persona comprometida y responsable. Busco
         continuar creciendo desde la formación académica,
@@ -141,30 +137,31 @@
     </div>
     </div>
     <div class="proyects">
-    <img class="w3-padding-large" src="img/calcu.png" alt="img-calcu" width="235px" height="255px">
-    <img class="w3-padding-small" src="img/click.png" alt="img-clickcout" width="235px" height="255px">
+    <img class="w3-padding-large calcu" src="img/calcu.png" alt="img-calcu" width="235px" height="255px">
+    <img class="w3-padding-small calcu" src="img/click.png" alt="img-clickcout" width="235px" height="255px">
     </div>
   </section>
 <section>
-  <h3>Contact Form</h3>
+  <h3 class="w3-padding-small">Contactame</h3>
 
-<div class="container">
+<div id="contact" class="container w3-margin">
   <form action="/action_page.php">
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    <label for="fname">Nombre y Apellido</label>
+    <input type="text" id="fname" name="firstname" placeholder="Tu nombre y apellido..">
 
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    <label for="lname">Telefono</label>
+    <input type="text" id="lname" name="lastname" placeholder="Tu celular..">
 
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    <label for="subject">Tema</label>
+    <textarea id="subject" name="subject" placeholder="Que te parecio mi Portfolio?" style="height:200px"></textarea>
 
     <input type="submit" value="Submit">
   </form>
 </div>
 </section>
-<footer>
-  <p>Author: Emiliano Broggi<br>
+<footer class="w3-center">
+  <p>Copyright © 2023 - All Rights Reserved.</p>
+  <p>Autor: Emiliano Broggi<br>
     <a href="mailto:broggi4@hotmail.com">Email</a></p>
 </footer>
 
