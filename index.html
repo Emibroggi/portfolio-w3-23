@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <style>
     html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
-    .double {border-style: double; padding: 60px; margin: 40px;}
+    .double {border-style: double; padding: 40px; margin: 40px;}
     .proyects{display: flex;padding: 25px;}
     .calcu {opacity:0.4;}
     .calcu:hover {opacity: 1;}
@@ -59,6 +59,7 @@
 <a href="#contact" class="w3-bar-item w3-button">Contacto</a>
 <a href="https://github.com/Emibroggi" class="w3-bar-item w3-button w3-right" ><i class="fa-brands fa-github"></i></i></i>GitHub</a>
 <a href="https://facebook.com/emiliano.broggi.7/" class="w3-bar-item w3-button  w3-right"><i class="fa-brands fa-facebook"></i></i></i>Facebook</a>
+<a href="https://https://www.linkedin.com/in/emiliano-broggi/" class="w3-bar-item w3-button  w3-right"><i class="fa-brands fa-linkedin"></i></i></i>Linkedin</a>
 
 
 </nav>
@@ -67,10 +68,10 @@
   <div style="text-align: center;">
 <img id="home" src="img/foto3.jpg" alt="fondo" style="width:50%" height="700">
   </div>
-<div class="w3-container w3-black">
-<h1 class="w3-center">EMILIANO BROGGI </h1>
-<br>
-<h4 class="w3-center">FRONTEND DEVELOPER</h4>
+<div class="w3-container w3-black w3-animate-zoom">
+<h1 class="w3-center w3-text-white w3-hover-text-cyan">EMILIANO BROGGI </h1>
+<br>  
+<h4 class="w3-center w3-sans-serif w3-hover-text-blue">FRONTEND DEVELOPER</h4>
 </div>
 </header>
 <section>
@@ -99,8 +100,11 @@
   </section>
 <!--habilidades-->
   <section>
-<div class="double">
-<p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
+     <div class=" w3-padding-small w3-opacity w3-hide-small", class="w3-center">
+    <h2>HABILIDADES</h2>
+    </div>
+<div class="w3-container double">
+<p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Habilidades</b></p>
           <p>HTML</p>
           <div class="w3-light-grey w3-round-xlarge w3-small">
             <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">90%</div>
@@ -145,19 +149,20 @@
   <h3 class="w3-padding-small">Contactame</h3>
 
 <div id="contact" class="container w3-margin">
-  <form action="/action_page.php">
-    <label for="fname">Nombre y Apellido</label>
+  <form class="w3-padding-48" action="/action_page.php">
+    <label class="fa fa-user" for="fname"> Nombre y Apellido</label>
     <input type="text" id="fname" name="firstname" placeholder="Tu nombre y apellido..">
 
-    <label for="lname">Telefono</label>
+    <label class="fa fa-phone" for="lname"> Telefono</label>
     <input type="text" id="lname" name="lastname" placeholder="Tu celular..">
 
-    <label for="subject">Tema</label>
+    <label  class="fa fa-pencil" for="subject"> Mensaje</label>
     <textarea id="subject" name="subject" placeholder="Que te parecio mi Portfolio?" style="height:200px"></textarea>
 
-    <input type="submit" value="Submit">
+    <input type="submit" value="Enviar">
   </form>
 </div>
+
 </section>
 <footer class="w3-center">
   <p>Copyright © 2023 - All Rights Reserved.</p>
