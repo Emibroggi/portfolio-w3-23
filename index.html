@@ -5,16 +5,18 @@
 <title>Portfolio Emiliano Broggi</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href='https://fonts.googleapis.com/css?family=Space Mono' rel='stylesheet'>
+<script src="https://kit.fontawesome.com/81c1b6db1d.js" crossorigin="anonymous"></script>
 <style>
-    html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
-    .double {border-style: double; padding: 40px; margin: 40px;}
+    html,body,h1,h2,h3,h4,h5,h6 {font-family:Space Mono, Georgia, 'Space Mono', sans-serif}
+    .headers{top: 230px; left: 93px;}
     .proyects{display: flex;padding: 25px;}
     .calcu {opacity:0.4;}
     .calcu:hover {opacity: 1;}
-    .form{padding: 49px;}
+    .form{padding: 49px;};
 </style>
 <style>
-  body {font-family: Arial, Helvetica, sans-serif;}
+  body {font-family: Space Mono, Georgia, 'Space Mono', Times, serif, Helvetica, sans-serif;}
   * {box-sizing: border-box;}
   
   input[type=text], select, textarea {
@@ -48,50 +50,44 @@
   }
   </style>
 
-<script src="https://kit.fontawesome.com/81c1b6db1d.js" crossorigin="anonymous"></script>
+
 </head>
-<body class="w3-black">
+<body class="w3-black" >
 
 <!-- Navigation (Stays on Top) -->
 <nav class="w3-top w3-bar w3-black">
-<a href="#home" class="w3-bar-item w3-button"><i class="fas fa-home"></i></a>
-<a href="#about" class="w3-bar-item w3-button">Acerca de </a>
-<a href="#contact" class="w3-bar-item w3-button">Contacto</a>
-<a href="https://github.com/Emibroggi" class="w3-bar-item w3-button w3-right" ><i class="fa-brands fa-github"></i></i></i>GitHub</a>
-<a href="https://facebook.com/emiliano.broggi.7/" class="w3-bar-item w3-button  w3-right"><i class="fa-brands fa-facebook"></i></i></i>Facebook</a>
-<a href="https://https://www.linkedin.com/in/emiliano-broggi/" class="w3-bar-item w3-button  w3-right"><i class="fa-brands fa-linkedin"></i></i></i>Linkedin</a>
 
+<a href="#about" class="w3-bar-item w3-button w3-right ">About Me </a>
+<a href="#contact" class="w3-bar-item w3-button w3-right">Contact</a>
+<a href="#home" class="w3-bar-item w3-button w3-right"><i class="fas fa-home"></i></a>
 
 </nav>
 <!-- header-->
 <header>
-  <div style="text-align: center;">
-<img id="home" src="img/foto3.jpg" alt="fondo" style="width:50%" height="700">
+  <div class="w3-display-container " id="home">
+    <img class="w3-right" src="img/fondonew.png" alt="Computer" >
+    <div class="w3-padding headers w3-display-left">
+      <h1 class="w3-hover-text-cyan header">EMILIANO BROGGI </h1>
+      <br>  
+      <h4 class="w3-hover-text-blue header">FRONTEND DEVELOPER</h4> 
+    </div>
   </div>
-<div class="w3-container w3-black w3-animate-zoom">
-<h1 class="w3-center w3-text-white w3-hover-text-cyan">EMILIANO BROGGI </h1>
-<br>  
-<h4 class="w3-center w3-sans-serif w3-hover-text-blue">FRONTEND DEVELOPER</h4>
-</div>
 </header>
 <section>
 <!-- About -->
-<div id="about" class="w3-padding-top-64">
+<div class="w3-padding-top-64 w3-section">
     <div class="w3-row">
     
-    <div class="w3-half w3-padding-large w3-hide-small">
-    <img src="img/fondo.jpg" class="w3-round w3-image w3-opacity-min" alt="Table" style="width:100%">
+    <div class="w3-half w3-padding-large w3-hide-small" id="about">
+    <img src="img/fondo.jpg" class="w3-round w3-image w3-opacity-min w3-center w3-padding-top-48" alt="Table" style="width:100%">
     </div>
     
     <div class="w3-half w3-padding-large">
-    <h1 class="w3-center">Acerca de Mi</h1><br>
-    <h5 class="w3-center">Concordia Entre Rios, desde 1993.</h5>
-    <p class="w3-large">
-        Soy una persona comprometida y responsable. Busco
-        continuar creciendo desde la formación académica,
-        laboral y personal.
-        Me gusta trabajar en equipo respetando, ayudando y
-        aportando en las distintas propuestas.
+    <h2 class="w3-center" >About Me</h1><br>
+    <h5 class="w3-center">Concordia Entre Rios, since 1993.</h5>
+    <p class="w3-large">I am a committed and responsible person. I seek to continue growing from academic, work and personal training.
+      I am willing to work as a team respecting, collaborating and contributing to the different proposals.
+      I want to continue learning to generate value in my position, and to be able to apply what I have built in my studies to reality.
         </p>
     </div>
     
@@ -99,43 +95,42 @@
     </div>
   </section>
 <!--habilidades-->
-  <section>
+  <section class="w3-section">
      <div class=" w3-padding-small w3-opacity w3-hide-small", class="w3-center">
-    <h2>HABILIDADES</h2>
+    <h2>SKILLS</h2>
     </div>
-<div class="w3-container double">
-<p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Habilidades</b></p>
+<div class="w3-container w3-margin">
           <p>HTML</p>
           <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">90%</div>
+            <div class="w3-container w3-center w3-round-xlarge w3-cyan" style="width:90%">90%</div>
           </div>
           <p>CSS</p>
           <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">
+            <div class="w3-container w3-center w3-round-xlarge w3-cyan" style="width:80%">
               <div class="w3-center w3-text-white">80%</div>
             </div>
           </div>
           <p>JAVASCRIPT</p>
           <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%">75%</div>
+            <div class="w3-container w3-center w3-round-xlarge w3-cyan" style="width:75%">75%</div>
           </div>
           <p>ANGULAR</p>
           <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:55%">55%</div>
+            <div class="w3-container w3-center w3-round-xlarge w3-cyan" style="width:55%">55%</div>
           </div>
         </div>
           <br>
         </section>
 
 <!-- Image in Display Container -->
-<section>
+<section class="w3-section">
 <div class=" w3-padding-top-48">
     <div class="w3-display-container">
     
    
     
     <div class="w3-display-bottomleft w3-padding-small w3-opacity w3-hide-small", class="w3-center">
-    <h2>PROYECTOS</h2>
+    <h2>PROYECTS</h2>
     </div>
     
     </div>
@@ -146,17 +141,17 @@
     </div>
   </section>
 <section>
-  <h3 class="w3-padding-small">Contactame</h3>
+  <h3 class="w3-padding-small">CONTACT</h3>
 
 <div id="contact" class="container w3-margin">
   <form class="w3-padding-48" action="/action_page.php">
-    <label class="fa fa-user" for="fname"> Nombre y Apellido</label>
+    <label class="fa fa-user" for="fname"> Frist Name & Second Name</label>
     <input type="text" id="fname" name="firstname" placeholder="Tu nombre y apellido..">
 
-    <label class="fa fa-phone" for="lname"> Telefono</label>
+    <label class="fa fa-phone" for="lname"> Telephone</label>
     <input type="text" id="lname" name="lastname" placeholder="Tu celular..">
 
-    <label  class="fa fa-pencil" for="subject"> Mensaje</label>
+    <label  class="fa fa-pencil" for="subject"> Mesaje</label>
     <textarea id="subject" name="subject" placeholder="Que te parecio mi Portfolio?" style="height:200px"></textarea>
 
     <input type="submit" value="Enviar">
@@ -168,6 +163,9 @@
   <p>Copyright © 2023 - All Rights Reserved.</p>
   <p>Autor: Emiliano Broggi<br>
     <a href="mailto:broggi4@hotmail.com">Email</a></p>
+    <a href="https://github.com/Emibroggi" class="w3-bar-item w3-button w3-right" ><i class="fa-brands fa-github"></i></i></i>GitHub</a>
+<a href="https://facebook.com/emiliano.broggi.7/" class="w3-bar-item w3-button  w3-right"><i class="fa-brands fa-facebook"></i></i></i>Facebook</a>
+<a href="https://https://www.linkedin.com/in/emiliano-broggi/" class="w3-bar-item w3-button  w3-right"><i class="fa-brands fa-linkedin"></i></i></i>Linkedin</a>
 </footer>
 
 </body>
