@@ -9,7 +9,7 @@
 <script src="https://kit.fontawesome.com/81c1b6db1d.js" crossorigin="anonymous"></script>
 <style>
     html,body,h1,h2,h3,h4,h5,h6 {font-family:Space Mono, Georgia, 'Space Mono', sans-serif}
-    .headers{top: 230px; left: 93px;}
+    .headers{top: 310px; left: 53px;}
     .proyects{display: flex;padding: 25px;}
     .calcu {opacity:0.4;}
     .calcu:hover {opacity: 1;}
@@ -56,20 +56,25 @@
 
 <!-- Navigation (Stays on Top) -->
 <nav class="w3-top w3-bar w3-black">
-
-<a href="#about" class="w3-bar-item w3-button w3-right ">About Me </a>
 <a href="#contact" class="w3-bar-item w3-button w3-right">Contact</a>
+<a href="#about" class="w3-bar-item w3-button w3-right ">About Me </a>
 <a href="#home" class="w3-bar-item w3-button w3-right"><i class="fas fa-home"></i></a>
 
 </nav>
 <!-- header-->
 <header>
   <div class="w3-display-container " id="home">
-    <img class="w3-right" src="img/fondonew.png" alt="Computer" >
+    <img class="w3-right w3-image" src="img/fondonew.png" alt="Computer" >
     <div class="w3-padding headers w3-display-left">
       <h1 class="w3-hover-text-cyan header">EMILIANO BROGGI </h1>
       <br>  
       <h4 class="w3-hover-text-blue header">FRONTEND DEVELOPER</h4> 
+      <br><br><br><br><br><br><br><br><br>
+      <div class="w3-display-left w3-padding-64">
+      <a href="https://https://www.linkedin.com/in/emiliano-broggi/" class="w3-bar-item w3-button  w3-right"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://github.com/Emibroggi" class="w3-bar-item w3-button w3-right" ><i class="fa-brands fa-github"></i></i></i></a>
+
+    </div>
     </div>
   </div>
 </header>
@@ -102,7 +107,7 @@
 <div class="w3-container w3-margin">
           <p>HTML</p>
           <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-cyan" style="width:90%">90%</div>
+            <div class="w3-container w3-center w3-round-xlarge w3-cyan  w3-text-white" style="width:90%">90%</div>
           </div>
           <p>CSS</p>
           <div class="w3-light-grey w3-round-xlarge w3-small">
@@ -112,11 +117,11 @@
           </div>
           <p>JAVASCRIPT</p>
           <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-cyan" style="width:75%">75%</div>
+            <div class="w3-container w3-center w3-round-xlarge w3-cyan  w3-text-white" style="width:75%">75%</div>
           </div>
           <p>ANGULAR</p>
           <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-cyan" style="width:55%">55%</div>
+            <div class="w3-container w3-center w3-round-xlarge w3-cyan  w3-text-white" style="width:55%">55%</div>
           </div>
         </div>
           <br>
@@ -141,7 +146,7 @@
     </div>
   </section>
 <section>
-  <h3 class="w3-padding-small">CONTACT</h3>
+  <h3 class="w3-padding-large w3-margin">CONTACT</h3>
 
 <div id="contact" class="container w3-margin">
   <form class="w3-padding-48" action="/action_page.php">
@@ -154,7 +159,7 @@
     <label  class="fa fa-pencil" for="subject"> Mesaje</label>
     <textarea id="subject" name="subject" placeholder="Que te parecio mi Portfolio?" style="height:200px"></textarea>
 
-    <input type="submit" value="Enviar">
+    <input class="w3-cyan" type="submit" value="Enviar">
   </form>
 </div>
 
