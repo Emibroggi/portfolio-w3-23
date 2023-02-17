@@ -9,7 +9,6 @@
 <script src="https://kit.fontawesome.com/81c1b6db1d.js" crossorigin="anonymous"></script>
 <style>
     html,body,h1,h2,h3,h4,h5,h6 {font-family:Space Mono, Georgia, 'Space Mono', sans-serif}
-    .headers{top: 310px; left: 53px;}
     .proyects{display: flex;padding: 25px;}
     .calcu {opacity:0.4;}
     .calcu:hover {opacity: 1;}
@@ -31,7 +30,7 @@
   }
   
   input[type=submit] {
-    background-color: #138e61;
+    background-color: aquamarine;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -55,41 +54,35 @@
 <body class="w3-black" >
 <!-- Navigation (Stays on Top) -->
 <nav class="w3-top w3-bar w3-black">
-<a href="#contact" class="w3-bar-item w3-button w3-right">Contact</a>
-<a href="#about" class="w3-bar-item w3-button w3-right ">About Me </a>
+<a href="#contact" class="w3-bar-item w3-button w3-right">Contacto</a>
+<a href="#about" class="w3-bar-item w3-button w3-right ">Sobre Mi </a>
 <a href="#home" class="w3-bar-item w3-button w3-right"><i class="fas fa-home"></i></a>
 
 </nav>
 <!-- header-->
 <header>
-  <div class="w3-display-container " id="home">
-    <img class="w3-right w3-image" src="img/fondonew.png" alt="Computer" >
-    <div class="w3-padding headers w3-display-left">
-      <h1 class="w3-hover-text-cyan header">EMILIANO BROGGI </h1>
+  <div class="w3-row w3-padding-top-64 w3-auto"  id="home">
+    <div class="w3-col s8 w3-right"><img class="w3-right w3-image" src="img/fondonew.png" alt="Computer" ></div>
+    <div class="w3-col s4 w3-padding-top-64"><h1 class="w3-hover-text-cyan">EMILIANO BROGGI </h1>
       <br>  
-      <h4 class="w3-hover-text-blue header">DESARROLADOR FRONTEND</h4> 
-      <br><br><br><br><br><br><br><br><br>
-      <div class="w3-display-left w3-padding-64">
-      <a href="https://www.linkedin.com/in/emiliano-broggi/" class="w3-bar-item w3-button  w3-right"><i class="fa-brands fa-linkedin"></i></a>
-      <a href="https://github.com/Emibroggi" class="w3-bar-item w3-button w3-right" ><i class="fa-brands fa-github"></i></i></i></a>
-
-    </div>
-    </div>
+      <h4 class="w3-hover-text-blue">DESARROLADOR FRONTEND</h4>
+      <a href="https://www.linkedin.com/in/emiliano-broggi/" class="w3-bar-item w3-button"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://github.com/Emibroggi" class="w3-bar-item w3-button" ><i class="fa-brands fa-github"></i></i></i></a>
+  </div>
   </div>
 </header>
 <section>
 <!-- About -->
-<div class="w3-padding-top-64 w3-section">
+<div class="w3-container w3-padding-top-64 w3-section">
     <div class="w3-row">
-    
     <div id="about" class="w3-half w3-padding-large w3-hide-small">
     <img src="img/fondo.jpg" class="w3-round w3-image w3-opacity-min w3-center w3-padding-top-48" alt="Table" style="width:100%">
     </div>
     
-    <div class="w3-half w3-padding-large">
-    <h2 class="w3-center" >Sobre Mi</h1><br>
+    <div class="w3-half">
+    <h2 class="w3-center w3-padding-top-48" >Sobre Mi</h1><br>
     <h5 class="w3-center">Concordia Entre Rios, 1993.</h5>
-    <p class="w3-large">Soy una persona comprometida y responsable. Busco continuar creciendo desde la formación académica,  laboral y personal. Me gusta trabajar en equipo respetando, ayudando y aportando en las distintas propuestas</p>
+    <p class="w3-center">Soy una persona comprometida y responsable. Busco continuar creciendo desde la formación académica,  laboral y personal. Me gusta trabajar en equipo respetando, ayudando y aportando en las distintas propuestas</p>
     </div>
     
     </div>
@@ -97,10 +90,10 @@
   </section>
 <!--habilidades-->
   <section class="w3-section">
-     <div class=" w3-padding-large w3-opacity w3-hide-small", class="w3-center">
+     <div class=" w3-padding-top-64 w3-opacity w3-hide-small", class="w3-center">
     <h2>HABILIDADES</h2>
     </div>
-<div class="w3-container w3-margin- w3-padding-large" style="width:750px">
+<div class="w3-container w3-margin- w3-padding-large w3-auto" style="width:750px">
           <p>HTML</p>
           <div class="w3-light-grey w3-round-xlarge w3-small">
             <div class="w3-container w3-center w3-round-xlarge w3-cyan  w3-text-black w3-medium" style="width:90%">90%</div>
@@ -113,7 +106,7 @@
           </div>
           <p>JAVASCRIPT</p>
           <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-cyan  w3-text-black w3-medium" style="width:75%">75%</div>
+            <div class="w3-container w3-center w3-round-xlarge w3-cyan  w3-text-white w3-medium" style="width:75%">75%</div>
           </div>
           <p>TYPESCRIPT</p>
           <div class="w3-light-grey w3-round-xlarge w3-small">
@@ -134,21 +127,17 @@
         </div>
           <br>
         </section>
-
 <!-- Image in Display Container -->
 <section class="w3-section">
 <div class=" w3-padding-top-48">
-    <div class="w3-display-container">
-    
-   
-    
+    <div class="w3-display-container">   
     <div class="w3-display-bottomleft w3-padding-small w3-opacity w3-hide-small", class="w3-center">
     <h2>PROYECTOS</h2>
     </div>
     
     </div>
     </div>
-    <div class="proyects w3-center">
+    <div class="proyects w3-auto">
     <img class="w3-padding-large calcu" src="img/calcu.png" alt="img-calcu" width="235px" height="255px">
     <img class="w3-padding-small calcu" src="img/click.png" alt="img-clickcout" width="235px" height="255px">
     </div>
