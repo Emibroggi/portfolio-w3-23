@@ -53,7 +53,7 @@
 </head>
 <body class="w3-black" >
 <!-- Nav(Stays on Top) -->
-  <nav class="w3-top w3-bar w3-black">
+  <nav class="w3-top w3-bar w3-black w3-mobile ">
     <a href="#contact" class="w3-bar-item w3-button w3-right">Contacto</a>
     <a href="#about" class="w3-bar-item w3-button w3-right ">Sobre Mi </a>
     <a href="#home" class="w3-bar-item w3-button w3-right"><i class="fas fa-home"></i></a>
@@ -61,8 +61,8 @@
 <!-- Header-->
   <header>
       <div class="w3-row w3-padding-top-64 w3-auto"  id="home">
-        <div class="w3-col s8 w3-right"><img class="w3-right w3-image" src="img/fondonew.png" alt="Computer" ></div>
-        <div class="w3-col s4 w3-padding-top-64"><h1 class="w3-hover-text-cyan">EMILIANO BROGGI </h1>
+        <div class="w3-col s8 w3-right  w3-mobile "><img class="w3-right w3-image" src="img/fondonew.png" alt="Computer" ></div>
+        <div class="w3-col s4 w3-padding-top-64 w3-mobile" ><h1 class="w3-hover-text-cyan">EMILIANO BROGGI </h1>
           <br>  
           <h4 class="w3-hover-text-blue">DESARROLADOR FRONTEND</h4>
           <a href="https://www.linkedin.com/in/emiliano-broggi/" class="w3-bar-item w3-button"><i class="fa-brands fa-linkedin"></i></a>
@@ -74,11 +74,11 @@
 <!-- About -->
       <div class="w3-container w3-padding-top-64 w3-section">
         <div class="w3-row">
-        <div id="about" class="w3-half w3-padding-large w3-hide-small">
+        <div class="w3-half w3-padding-large w3-hide-small">
           <img src="img/fondo.jpg" class="w3-round w3-image w3-opacity-min w3-center w3-padding-top-48" alt="Table" style="width:100%">
         </div>
         
-        <div class="w3-half">
+        <div id="about" class="w3-half">
           <h2 class="w3-center w3-padding-top-48" >Sobre Mi</h1><br>
           <h5 class="w3-center">Concordia Entre Rios, 1993.</h5>
           <p class="w3-center">Soy una persona comprometida y responsable. Busco continuar creciendo desde la formación académica,  laboral y personal. Me gusta trabajar en equipo respetando, ayudando y aportando en las distintas propuestas</p>
@@ -133,15 +133,15 @@
     </div>
     
     <div class="w3-row  w3-center w3-padding-large w3-padding-top-64">
-      <a class="w3-col s6 w3-opacity  w3-hover-opacity-off" aria-label="Click Counter" href="https://github.com/Emibroggi/click-counter" target="_blank"> <img alt="Click Counter" src="img/click.png" style="height: 255px;" width="235px" /> </a>
-      <a class="w3-col s6 w3-opacity  w3-hover-opacity-off" aria-label="Calculadora" href="https://github.com/Emibroggi/Calculator" target="_blank"> <img alt="Click Counter" src="img/calcu.png" style="height: 255px;" width="215px" /> </a>
+      <a class="w3-col s6 w3-opacity  w3-hover-opacity-off w3-mobile " aria-label="Click Counter" href="https://github.com/Emibroggi/click-counter" target="_blank"> <img alt="Click Counter" src="img/click.png" style="height: 255px;" width="235px" /> </a>
+      <a class="w3-col s6 w3-opacity  w3-hover-opacity-off w3-mobile " aria-label="Calculadora" href="https://github.com/Emibroggi/Calculator" target="_blank"> <img alt="Click Counter" src="img/calcu.png" style="height: 255px;" width="215px" /> </a>
       <p class="w3-text-grey">Ambas App fueron creadas con React.</p>
     </div>
   </section>
   <!-- Contacto -->
   <section>
-        <h2 id="contact" class="w3-padding-top-64  w3-padding-top-64 w3-opacity  w3-hover-opacity-off w3-hide-small ">CONTACTO</h2>
-        <div class="w3-dropdown-hover w3-margin w3-col s6 w3-padding-64 w3-hover-text-cyan">
+        <h2  class="w3-padding-top-64  w3-padding-top-64 w3-opacity  w3-hover-opacity-off w3-hide-small ">CONTACTO</h2>
+        <div id="contact" class="w3-dropdown-hover w3-margin w3-col s6 w3-padding-64 w3-hover-text-cyan">
           <img alt="Casilla Email" src="img/logoemail.png" style="height: 75px;" width="75px"/>EMAIL</img>
           <div class="w3-dropdown-content w3-bar-block w3-border">
             <a href="mailto:broggi4@hotmail.com" class="w3-bar-item w3-button w3-hover-text-blue">Enviar Email</a>
